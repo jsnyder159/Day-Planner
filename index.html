@@ -20,16 +20,25 @@
   </head>
 
   <body>
+    <!-- Header format and current day timer (Day, Month , Date, Year givenin in ptag with ID)-->
     <header class="jumbotron">
       <h1 class="display-1">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-
+      <!-- Following notes on formating are for all time blocks in planner.-->
+      
+      <!-- ID given for JS functions and class stylized from CSS-->
       <div id = "hour8" class = "time-block row">
+
+        <!-- boot strap sizing on screen-->
         <div class = "hour col-1">0800 hrs</div>
+
+        <!-- bootstrap sizing for area to type in-->
         <textarea class = "description col-10"></textarea>
+
+        <!-- bootstrap sizing for size button, giving button function, and image for button to save input area-->
         <button class = " btn saveBtn col-1 " type="button"><i class="fas fa-save"></i></button>
       </div>
 
